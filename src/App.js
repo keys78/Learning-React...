@@ -9,20 +9,20 @@ function App() {
   const [tasks, setTasks] = useState([
     {
         id: 1,
-        text: 'Doctors Appointment',
-        day: 'Feb 5th at 2:30pm',
+        text: 'Complete Actions and Modules on VUE',
+        day: 'Jan 10th at 2:30pm',
         reminder: true,
     },
     {
         id: 2,
-        text: 'Visit the beach',
-        day: 'Feb 5th at 2:30pm',
+        text: 'Start a New React Project',
+        day: 'July 27th at 9:00pm',
         reminder: true,
     },
     {
         id: 3,
-        text: 'Tour the country',
-        day: 'Feb 5th at 2:30pm',
+        text: 'Improve Diet and Rest',
+        day: 'July 28th at 10:30pm',
         reminder: false,
     },
 ])
@@ -60,7 +60,7 @@ function App() {
       onToggle={toggleReminder}
       />
       ) : (
-        'No Tasks To Show'
+        'Hey Champ, You Have No Tasks To Show'
       )}
     </div>
   );
